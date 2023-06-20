@@ -17,13 +17,13 @@ function App() {
   };
   return (
     <div className={darkMode ? 'dark' : ''}>
-      <main className='bg-white px-5 dark:bg-gray-900'>
+      <main className='bg-white dark:bg-gray-900'>
         <section className='min-h-screen'>
           <nav className='py-10 mb-12 flex justify-between'>
-            <h1 className='text-xl font-burtons mx-10 dark:text-gray-200'>Developed by Ewerton Lima</h1>
+            <h1 className='text-lg font-burtons ml-10 dark:text-gray-200'>Developed by Ewerton Lima</h1>
             <ul className='flex items-center'>
-              <li><DarkToggle onDarkModeChange={handleDarkModeChange}/></li>
-              <li><a className='bg-gradient-to-r from-purple-500 to-teal-500 text-white px-4 py-2 rounded-md ml-8 font-sanfrancisco mx-10' href="#" >Resumo</a></li>
+              <li><DarkToggle className='pl-3' onDarkModeChange={handleDarkModeChange}/></li>
+              <li><a className='bg-gradient-to-r from-purple-500 to-teal-500 text-white px-4 py-2 rounded-md ml-3 font-sanfrancisco mr-3' href="#" >Resumo</a></li>
             </ul>
           </nav>
           <div className='text-center p-10'>
