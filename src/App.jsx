@@ -14,7 +14,6 @@ function App() {
 
   const handleDarkModeChange = (newDarkMode) => {
     setDarkMode(newDarkMode);
-    // Faça o que for necessário com o novo valor de darkMode
   };
   return (
     <div className={darkMode ? 'dark' : ''}>
