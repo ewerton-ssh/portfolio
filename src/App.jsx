@@ -10,11 +10,12 @@ import DarkToggle from './components/DarkToggle';
 
 
 function App() {
-  const [darkMode, setDarkMode] = useState(false);
 
+  const [darkMode, setDarkMode] = useState(false);
   const handleDarkModeChange = (newDarkMode) => {
     setDarkMode(newDarkMode);
   };
+
   return (
     <div className={darkMode ? 'dark' : ''}>
       <main className='bg-white dark:bg-gray-900'>
