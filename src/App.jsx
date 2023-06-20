@@ -1,5 +1,4 @@
 import { useState } from 'react';
-//import {BsFillMoonStarsFill} from 'react-icons/bs';
 import {AiFillGithub, AiFillLinkedin} from 'react-icons/ai';
 import {SiTailwindcss, SiReact, SiNodedotjs,SiNextdotjs, SiVite, SiAdobephotoshop, SiAdobeillustrator, SiFigma} from 'react-icons/si'
 import char from '../src/assets/char.png';
@@ -10,7 +9,7 @@ import DarkToggle from './components/DarkToggle';
 
 
 function App() {
-  
+
   const [darkMode, setDarkMode] = useState(false);
   const handleDarkModeChange = (newDarkMode) => {
     setDarkMode(newDarkMode);
@@ -18,13 +17,13 @@ function App() {
 
   return (
     <div className={darkMode ? 'dark' : ''}>
-      <main className='bg-white px-5 dark:bg-gray-900'>
+      <main className='bg-white dark:bg-gray-900'>
         <section className='min-h-screen'>
           <nav className='py-10 mb-12 flex justify-between'>
-            <h1 className='text-xl font-burtons mx-10 dark:text-gray-200'>Developed by Ewerton Lima</h1>
+            <h1 className='text-lg font-burtons ml-10 dark:text-gray-200'>Developed by Ewerton Lima</h1>
             <ul className='flex items-center'>
-              <li><DarkToggle onDarkModeChange={handleDarkModeChange}/></li>
-              <li><a className='bg-gradient-to-r from-purple-500 to-teal-500 text-white px-4 py-2 rounded-md ml-8 font-sanfrancisco mx-10' href="#" >Resumo</a></li>
+              <li><DarkToggle className='pl-3' onDarkModeChange={handleDarkModeChange}/></li>
+              <li><a className='bg-gradient-to-r from-purple-500 to-teal-500 text-white px-4 py-2 rounded-md ml-3 font-sanfrancisco mr-3' href="#" >Resumo</a></li>
             </ul>
           </nav>
           <div className='text-center p-10'>
@@ -33,8 +32,8 @@ function App() {
             <p className='text-md py-5 leading-8 text-gray-800 font-sanfrancisco dark:text-gray-200'>Com habilidades afiadas em programação, esse freelancer é a escolha perfeita para transformar sua necessidade em soluções brilhantes.</p>
           </div>
           <div className='text-5xl flex justify-center gap-16 py-3 text-gray-600'>
-            <AiFillLinkedin/>
-            <AiFillGithub/>
+            <a href='https://www.linkedin.com/in/ewerton-q-de-oliveira-lima-b92040228'><AiFillLinkedin/></a>
+            <a href='https://github.com/ewerton-ssh'><AiFillGithub/></a>
           </div>
           <div className='relative mx-auto bg-gradient-to-b from-purple-500 to-teal-500 rounded-full w-80 h-80 mt-20 overflow-hidden'>
             <img src={char} className='object-fill' />
