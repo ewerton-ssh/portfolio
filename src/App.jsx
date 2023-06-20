@@ -1,5 +1,4 @@
 import { useState } from 'react';
-//import {BsFillMoonStarsFill} from 'react-icons/bs';
 import {AiFillGithub, AiFillLinkedin} from 'react-icons/ai';
 import {SiTailwindcss, SiReact, SiNodedotjs,SiNextdotjs, SiVite, SiAdobephotoshop, SiAdobeillustrator, SiFigma} from 'react-icons/si'
 import char from '../src/assets/char.png';
@@ -33,8 +32,8 @@ function App() {
             <p className='text-md py-5 leading-8 text-gray-800 font-sanfrancisco dark:text-gray-200'>Com habilidades afiadas em programação, esse freelancer é a escolha perfeita para transformar sua necessidade em soluções brilhantes.</p>
           </div>
           <div className='text-5xl flex justify-center gap-16 py-3 text-gray-600'>
-            <AiFillLinkedin/>
-            <AiFillGithub/>
+            <a href='https://www.linkedin.com/in/ewerton-q-de-oliveira-lima-b92040228'><AiFillLinkedin/></a>
+            <a href='https://github.com/ewerton-ssh'><AiFillGithub/></a>
           </div>
           <div className='relative mx-auto bg-gradient-to-b from-purple-500 to-teal-500 rounded-full w-80 h-80 mt-20 overflow-hidden'>
             <img src={char} className='object-fill' />
