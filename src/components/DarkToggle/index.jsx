@@ -2,14 +2,14 @@ import { useState } from 'react';
 import './darktoggle.css'
 
 export default function DarkToggle({ onDarkModeChange }) {
-    const [darkMode, setDarkMode] = useState(false);
-    const handleToggle = () => {
-        const newDarkMode = !darkMode;
-        setDarkMode(newDarkMode);
-        onDarkModeChange(newDarkMode);
-      };
-    return (
-        <div>
+  const [darkMode, setDarkMode] = useState(false);
+  const handleToggle = () => {
+    const newDarkMode = !darkMode;
+    setDarkMode(newDarkMode);
+    onDarkModeChange(newDarkMode);
+  };
+  return (
+    <div>
       <label>
         <input className='toggle-checkbox' type='checkbox' checked={darkMode} onChange={handleToggle} />
         <div className='toggle-slot'>
@@ -23,5 +23,5 @@ export default function DarkToggle({ onDarkModeChange }) {
         </div>
       </label>
     </div>
-    )
+  )
 }
