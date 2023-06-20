@@ -28,7 +28,7 @@ function App() {
           </nav>
           <div className='text-center p-10'>
             <h2 className='text-5xl py-2 text-purple-600 font-sanfrancisco font-bold'>Ewerton Lima</h2>
-            <h3 className='text-2xl py-2 font-sanfrancisco dark:text-gray-200'>Developer front-end.</h3>
+            <h3 className='text-2xl py-2 font-sanfrancisco dark:text-gray-200'>Front End Developer</h3>
             <p className='text-md py-5 leading-8 text-gray-800 font-sanfrancisco dark:text-gray-200'>Com habilidades afiadas em programação, esse freelancer é a escolha perfeita para transformar sua necessidade em soluções brilhantes.</p>
           </div>
           <div className='text-5xl flex justify-center gap-16 py-3 text-gray-600'>
@@ -42,13 +42,13 @@ function App() {
         <section>
           <div className='mx-10'>
             <h3 className='text-3xl py3 font-sanfrancisco font-bold mt-10 dark:text-gray-200'>Serviços</h3>
-            <p className='text-md py-2 leading-8 text-gray-80 font-sanfrancisco dark:text-gray-200'>Desde o início da minha jornada 
+            <p className='text-md py-2 leading-8 text-gray-80 font-sanfrancisco dark:text-gray-200'>Desde o início de sua jornada 
             como designer freelancer e desenvolvedor, 
-            já fiz trabalho remoto para
+            ele efetuou trabalho remoto para
             <span className="text-teal-500 font-sanfrancisco"> empresas </span>
-            e prestei consultoria para 
+            e prestou consultoria para 
             <span className="text-teal-500 font-sanfrancisco"> projetos </span>
-             que atendiam diretamente a necessidade do consumidor, inclusive atendendo a parte fullstack (Banco de dados, API com CRUD e front-end utilizando React).
+             que atendiam diretamente a necessidade do consumidor, inclusive atendendo Full Stack (Banco de dados, API com CRUD e Front End utilizando React).
             </p>
           </div>
           <div className='lg:flex gap-10 mx-10'>
@@ -56,7 +56,7 @@ function App() {
               <img src={code} className='w-28 h-28 ml-auto mr-auto'/>
               <h3 className='text-lg pt-8 pb-2 font-sanfrancisco font-semibold'>Moderno</h3>
               <p className="text-md py-2 leading-8 text-gray-800 dark:text-gray-500 font-sanfrancisco">
-                Trabalho principalmente com a linguagem Javascript, utilizando tecnologias como React, Node, TailwindCSS, utilizando frameworks de desenvolvimento mais atualizados como Next.js e Vite.
+                Desempenha seu serviço com linguagem Javascript, utilizando tecnologias como React, Node, TailwindCSS, fazendo uso de frameworks de desenvolvimento mais atualizados como Next.js e Vite.
               </p>
               <div className='flex mt-5'>
                 <div className='ml-auto mr-auto flex flex-row space-x-5'>
@@ -80,7 +80,10 @@ function App() {
               <p className="text-md py-2 leading-8 text-gray-800 dark:text-gray-500 font-sanfrancisco">
                 Criação de designs que vão de arrojados a minimalistas, responsivos e de fácil entendimento do usuário.
               </p>
-              <span className="text-teal-500 font-sanfrancisco"> Ferramentas de design que eu uso. </span>
+              <span className="text-gray-800 dark:text-gray-500 font-sanfrancisco"> Ferramentas de design que eu uso. </span>
+              <p className="text-teal-500 font-sanfrancisco"> Photoshop</p>
+              <p className="text-teal-500 font-sanfrancisco"> Illustrator</p>
+              <p className="text-teal-500 font-sanfrancisco"> Figma</p>
               <div className='flex mt-5'>
                 <div className='ml-auto mr-auto flex flex-row space-x-5'>
                 <SiAdobephotoshop className='text-5xl text-[#001d34]' />
@@ -95,7 +98,7 @@ function App() {
           <div>
             <h3 className='text-3xl py-1 mt-5 mx-10 font-semibold font-sanfrancisco dark:text-gray-200'>Portfolio</h3>
             <p className="text-md py-2 leading-8 text-gray-800 dark:text-gray-200 mx-10 font-sanfrancisco">
-              Segue abaixo um de meus trabalhos como freelancer para empresas privadas...
+              Segue abaixo um trabalho realizado como freelancer.
             </p>
             <h3 className="text-3xl py-2 leading-8 text-gray-800 dark:text-gray-200 mt-5 mx-10 font-sanfrancisco">
               Controle de Abastecimento
