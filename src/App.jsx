@@ -20,7 +20,7 @@ function App() {
       <main className='bg-white dark:bg-gray-900'>
         <section className='min-h-screen'>
           <nav className='py-10 mb-12 flex justify-between'>
-            <h1 className='text-lg font-burtons ml-10 dark:text-gray-200'>Developed by Ewerton Lima</h1>
+            <h1 className='text-lg font-burtons ml-10 mr-5 dark:text-gray-200'>Developed by Ewerton Lima</h1>
             <ul className='flex items-center'>
               <li><DarkToggle className='pl-3' onDarkModeChange={handleDarkModeChange}/></li>
               <li><a className='bg-gradient-to-r from-purple-500 to-teal-500 text-white px-4 py-2 rounded-md ml-3 font-sanfrancisco mr-3' href="#">Resumo</a></li>
@@ -52,7 +52,7 @@ function App() {
             </p>
           </div>
           <div className='lg:flex gap-10 mx-10'>
-            <div className='text-center shadow-lg p-10 rounded-xl my-10 dark:bg-white flex-1 '>
+            <div className='text-center shadow-xl p-10 rounded-xl my-10 dark:bg-white flex-1 '>
               <img src={code} className='w-28 h-28 ml-auto mr-auto'/>
               <h3 className='text-lg pt-8 pb-2 font-sanfrancisco font-semibold'>Moderno</h3>
               <p className="text-md py-2 leading-8 text-gray-800 dark:text-gray-500 font-sanfrancisco">
@@ -74,7 +74,7 @@ function App() {
             </div>
           </div>
           <div className='lg:flex gap-10 mx-10'>
-            <div className='text-center shadow-lg p-10 rounded-xl my-10 dark:bg-white flex-1 '>
+            <div className='text-center shadow-xl p-10 rounded-xl my-10 dark:bg-white flex-1 '>
               <img src={design} className='w-28 h-28 ml-auto mr-auto'/>
               <h3 className='text-lg pt-8 pb-2 font-sanfrancisco font-semibold'>Designer</h3>
               <p className="text-md py-2 leading-8 text-gray-800 dark:text-gray-500 font-sanfrancisco">
